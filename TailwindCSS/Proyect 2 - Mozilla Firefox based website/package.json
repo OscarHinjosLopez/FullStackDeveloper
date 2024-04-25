@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1"
+  }
+}
