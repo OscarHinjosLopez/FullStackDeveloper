@@ -16,7 +16,7 @@ export const Search = () => {
   const location = useLocation();
 
 
-  const { q = 1 } = queryString.parse(location.search)
+  const { q = '' } = queryString.parse(location.search)
 
 
   const { searchText, onInputChange } = useForm({
