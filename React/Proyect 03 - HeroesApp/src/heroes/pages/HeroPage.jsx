@@ -3,10 +3,6 @@ import { getHeroById } from "../helpers/Index";
 import { useMemo } from "react";
 
 
-
-
-
-
 export const Hero = () => {
   const { id } = useParams();
   const navigate = useNavigate()
@@ -18,8 +14,6 @@ export const Hero = () => {
   }
 
   if (!hero) return <Navigate to={"/"}/>
-
-
 
   return (
     <div className="row mt-5">
@@ -44,6 +38,7 @@ export const Hero = () => {
           onClick={onNavigateBack}>
           Regresar
         </button>
+        
 
       </div>
     </div>

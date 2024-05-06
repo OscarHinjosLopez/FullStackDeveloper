@@ -18,6 +18,7 @@ export const LoginPage = () => {
     login('Oscar Hinjos');
     navigate(lastPath,{
       replace:true
+    
     })
   }
 
